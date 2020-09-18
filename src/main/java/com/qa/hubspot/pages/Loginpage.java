@@ -26,7 +26,9 @@ public class Loginpage extends Basepage
 	{
 		return driver.getTitle();
 	}
-	
+	public String getHomePageTitle() {
+		return driver.getTitle();
+	}
 	public boolean verifySignupLink()
 	{
 		return driver.findElement(signup).isDisplayed();
